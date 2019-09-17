@@ -1,14 +1,30 @@
 body {
     background-color: black;
+    font-family: 'Inconsolata', monospace;
 }
 #clockDisplay {
-    color: white;
     font-size: 100px;  
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
-    
+    transform: translate(-50%, -50%); 
+    color: rgba(255, 166, 0, 0.767);
+    font-family: 'Inconsolata', monospace;
+
+
+}
+
+#dateDisplay {
+    color: white;
+    font-size: 50px;  
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    font-family: 'Inconsolata', monospace;
+
 }
